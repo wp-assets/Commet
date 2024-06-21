@@ -1,0 +1,64 @@
+/*
+Theme Name: Comet
+Theme URI: https://sorolipi.com;
+Author:  Iman Ali;
+Version:  1.0.0;
+Author URI: https://sorolipi.com/;
+Text Domain: comet;
+Description:  Multi Purpuse theme;
+Tag: blog, business, woocommerce;
+*/
+
+.post-body iframe {
+	width: 100%;
+	height: 120px;
+}
+.widget ul {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.widget .tagcloud a:hover {
+	background-color: #EF2D56;
+	border-color: #EF2D56;
+	color: #fff;
+}
+.widget ul > li > a {
+	padding: 12px 0;
+	border-bottom: 1px solid #e7e7e7;
+	letter-spacing: 1px;
+}
+.widget .tagcloud a {
+	display: block;
+	float: left;
+	padding: 10px 15px;
+	border: 1px solid #191b1d;
+	margin: 0 10px 10px 0;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	font-weight: 500;
+}
+.widget ul li span{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	font-size: 12px;
+}
+.widget .tagcloud {
+	overflow: hidden;
+}
+
+.widget .menu-item {
+	float: none;
+}
+
+#footer-widgets .widget {
+
+}
+
+/*comments*/
+
